@@ -1,0 +1,127 @@
+/*
+    Alerts
+*/
+.threatpress-alert {
+    padding: 0 12px;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.threatpress-alerts .threatpress-alert-holder {
+    margin-bottom: 0.8em;
+}
+
+.threatpress-alerts .threatpress-alert {
+    width: 100%;
+}
+
+.threatpress-container__alert .threatpress-alert {
+    border-right-color: #dc3232;
+}
+
+#threatpress-alerts-dismissed .threatpress-alert {
+    border-right-color: #d93f69;
+}
+
+.threatpress-container__warning .threatpress-alert {
+    border-right-color: #5d237a;
+}
+
+#threatpress-warnings-dismissed .threatpress-alert {
+    border-right-color: #0075b3;
+}
+
+.threatpress-container {
+    position: relative;
+    max-width: 1280px;
+    margin-bottom: 2em;
+    padding: 20px 20px 0;
+    border: 1px solid #bbb;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.threatpress-alerts > h2:first-child {
+    margin-bottom: 1em;
+}
+
+.threatpress-alerts .threatpress-container h3 {
+    margin: -20px -20px 0;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+    background-color: #dfdfdf;
+    text-shadow: -1px 1px 0 #eee;
+    font-size: 1.6em;
+}
+
+h3 .dashicons-warning {
+    color: #dc3232;
+}
+
+.threatpress-container .container {
+    max-width: 980px;
+}
+
+.threatpress-container .threatpress-alert-holder {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.restore .dashicons,
+.dismiss .dashicons {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.threatpress-bottom-spacing {
+    margin-bottom: 20px;
+}
+
+/* These selectors need a higher specificity than .wp-core-ui .button */
+.threatpress-alerts .button.restore,
+.threatpress-alerts .button.dismiss {
+    width: 40px;
+    height: 40px;
+    line-height: inherit;
+
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+}
+
+.threatpress-alerts .button.restore:hover,
+.threatpress-alerts .button.dismiss:hover,
+.threatpress-alerts .button.restore:focus,
+.threatpress-alerts .button.dismiss:focus {
+    background: transparent;
+}
+
+.threatpress-container .separator {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 1px solid #ddd;
+}
+
+.threatpress-container .dashicons-yes {
+    color: #77b227;
+}
+
+.threatpress-container__warning .dashicons-flag {
+    color: #5d237a;
+}
+
+.threatpress-container-disabled {
+    display: table-cell;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+    background-color: rgba(232, 232, 232, 0.7);
+}
+
+.threatpress-no-issues {
+    padding: 1em 16px 1em 1em;
+    color: #666;
+}
